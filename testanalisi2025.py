@@ -239,7 +239,7 @@ def genera_report():
     pdf.output(file_path, "F")
     return file_path
 
-if st.button("Genera Report PDF"):
+if st.button("Visualizza Report PDF"):
     file_path = genera_report()
     
     with open(file_path, "rb") as file:
