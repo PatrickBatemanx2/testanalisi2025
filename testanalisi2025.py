@@ -238,9 +238,6 @@ def genera_report():
     file_path = "valutazione_report.pdf"
     pdf.output(file_path, "F")
     return file_path
-
-if st.button("Visualizza Report PDF"):
-    file_path = genera_report()
     
     with open(file_path, "rb") as file:
         st.download_button(label="Scarica il Report PDF", data=file, file_name="valutazione_report.pdf", mime="application/pdf")
