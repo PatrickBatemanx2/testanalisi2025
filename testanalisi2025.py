@@ -292,7 +292,7 @@ def invia_email(destinatari, allegato, nome, cognome, azienda, email, telefono, 
         st.error(f"Errore nell'invio dell'email: {str(e)}")
 
 # Dopo la generazione del PDF
-if st.button("Genera Report PDF", key="generate_report_pdf"):
+if st.button("Genera Report PDF2", key="generate_report_pdf"):
     file_path = genera_report()
     
     # Destinatari dell'email
