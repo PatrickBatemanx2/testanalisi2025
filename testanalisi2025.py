@@ -19,7 +19,7 @@ EMAIL_PASSWORD = "Vav30547"
 
 # Titolo del modulo
 st.title("Test di Valutazione Applicazione Principi Strategic Roadmap - Imprenditore Executive")
-st.write("Compilare tutti i campi perché riceverai una copia via mail. Rispondi dando un voto da 1 a 5 per ogni domanda 1=NO/NON APPLICATO - 5=SI/APPLICATO". Rispondi rispetto alla situazione attuale della tua azienda.)
+st.write("Compilare tutti i campi perché riceverai una copia via mail. Rispondi dando un voto da 1 a 5 per ogni domanda 1=NO/NON APPLICATO - 5=SI/APPLICATO. Rispondi rispetto alla situazione attuale della tua azienda, non come voresti che fosse.")
 
 # Inserimento dati utente
 st.subheader("Inserisci i tuoi dati")
