@@ -31,6 +31,11 @@ telefono = st.text_input("Numero di Telefono", key="input_telefono")
 ruolo = st.text_input("Ruolo in Azienda", key="input_ruolo")
 data_compilazione = datetime.date.today().strftime("%d/%m/%Y")
 
+# Verifica se i campi obbligatori sono compilati
+if not (nome and cognome and email and azienda):
+    st.warning("Per proseguire, devi compilare tutti i campi obbligatori: Nome, Cognome, Nome Azienda, Email, Ruolo. CLICCA ENTER per validare l'inserimento.")
+    st.stop()
+
 # Definizione delle sezioni e delle domande
 test_structure = {
     "Strategia e Gestione": [
